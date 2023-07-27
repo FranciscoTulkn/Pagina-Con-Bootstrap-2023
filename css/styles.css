@@ -1,0 +1,17 @@
+.navbar {
+  box-shadow: 2px 2px 5px #000;
+  opacity: .5;
+}
+
+.main-header {
+  background: rgb(226, 170, 97);
+  min-height: 700px;
+}
+
+.background-overlay {
+  top: 0;
+  left: 0;
+  width: 100%;;
+  height: 100%;
+  position: absolute;
+}

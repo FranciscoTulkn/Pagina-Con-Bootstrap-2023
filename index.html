@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <!-- Syles CSS -->
   <link href="./css/styles.css">
   <title>WEB BOOTSTRAP 2023</title>
@@ -25,10 +27,10 @@
             <a class="nav-link active" aria-current="page" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Team</a>
+            <a class="nav-link" href="#team">Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -183,7 +185,7 @@
   </section>
 
   <!-- Seccion Equipo -->
-  <section class="text-center h-100 bg-light p-3">
+  <section id='team' class="text-center h-100 bg-light p-3">
     <div class="container">
       <h2>Team</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, deserunt!</p>
@@ -192,13 +194,162 @@
         <div class="col-md-3">
           <div class="card">
             <div class="card-body">
-              <img src="" alt="">
+              <img src="image/logoPersona.png" alt="logo Cliente" class='img-fluid rounded-circle w-50'>
+              <h3>Juan García</h3>
+              <p>Hola soy un desarrollador backend, tengo 5 años de experiencia</p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class='p-2'>
+                  <a href="http://www.facebook.com" target="/blank">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </div>
+                <div class='p-2'>
+                  <a href="http://www.facebook.com" target="/blank">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </div>
+                <div class='p-2'>
+                  <a href="http://www.facebook.com" target="/blank">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
+        <!-- Mienbro 2 - Member 2 -->
+        <div class="col-md-3">
+          <div class="card text-white" style="background:rgba(48, 51, 107, 1.0)">
+            <div class="card-body">
+              <img src="image/logoPersona.png" alt="logo Cliente" class='img-fluid rounded-circle w-50'>
+              <h3>Laura Ramirez</h3>
+              <p>Hola soy una Tester Ingenieering, tengo 6 años de experiencia</p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class='p-2'>
+                  <a href="http://www.facebook.com" target="/blank">
+                    <i class="fab fa-facebook" style="color: white"></i>
+                  </a>
+                </div>
+                <div class='p-2'>
+                  <a href="http://www.facebook.com" target="/blank">
+                    <i class="fab fa-twitter" style="color: white"></i>
+                  </a>
+                </div>
+                <div class='p-2'>
+                  <a href="http://www.facebook.com" target="/blank">
+                    <i class="fab fa-instagram" style="color: white"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Mienbro 3 - Member 3 -->
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="image/logoPersona.png" alt="logo Cliente" class='img-fluid rounded-circle w-50'>
+              <h3>Sofia Mappiu</h3>
+              <p>Hola soy un desarrollador backend, tengo 5 años de experiencia</p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class='p-2'>
+                  <a href="http://www.facebook.com" target="/blank">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </div>
+                <div class='p-2'>
+                  <a href="http://www.facebook.com" target="/blank">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </div>
+                <div class='p-2'>
+                  <a href="http://www.facebook.com" target="/blank">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Mienbro 4 - Member 4 -->
+        <div class="col-md-3">
+          <div class="card text-white" style="background:rgba(48, 51, 107, 1.0)">
+            <div class="card-body">
+              <img src="image/logoPersona.png" alt="logo Cliente" class='img-fluid rounded-circle w-50'>
+              <h3>Marisol Salazar</h3>
+              <p>Hola soy un desarrollador Frontend, tengo 3 años de experiencia</p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class='p-2'>
+                  <a href="http://www.facebook.com" target="/blank">
+                    <i class="fab fa-facebook" style="color: white;"></i>
+                  </a>
+                </div>
+                <div class='p-2'>
+                  <a href="http://www.facebook.com" target="/blank">
+                    <i class="fab fa-twitter" style="color: white;"></i>
+                  </a>
+                </div>
+                <div class='p-2'>
+                  <a href="http://www.facebook.com" target="/blank">
+                    <i class="fab fa-instagram" style="color: white;"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section id='contact' class='py-5 text-white text-center' style="background:rgba(48, 51, 107, 1.0)">
+    <div class='container'>
+      <div class='row'>
+        <div class='col-lg-9'>
+          <h3>Contact</h3>
+          <p>lorem ipsum dolor sit amet.</p>
+          <!-- Start From -->
+          <form action=''>
+            <!-- primer campo nombre -->
+            <div class='input-group mb-3'>
+              <div class='input-group-prepend'>
+                <i class='fas fa-user input-group-text'></i>
+              </div>
+              <input type='text' class='form-control' placeholder='Name'>
+            </div>
+
+            <!-- segundo campo correo -->
+            <div class='input-group mb-3'>
+              <div class='input-group-prepend'>
+                <i class='input-group-text fas fa-envelope'></i>
+              </div>
+              <input type='email' class='form-control' placeholder='Email'>
+            </div>
+
+            <!-- tercer campo para el mensaje -->
+            <div class='input-group mb-3'>
+              <div class='input-group-prepend'>
+                <i class='input-group-text fas fa-pencil-alt'></i>
+              </div>
+              <textarea name='' id='' col='30' rows='10' class='form-control' placeholder='Write your message'></textarea>
+            </div>
+
+            <button class='btn btn-primary btn-lg btn-block'>Send your message</button>
+          </form>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class='container p-3'>
+      <p class='text-center'>Copyright &copy 2023 | Dev FJTR</p>
+    </div>
+  </footer>
+
   <!-- Bootstrap Javascript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
